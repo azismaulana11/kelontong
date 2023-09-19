@@ -132,6 +132,7 @@ img {
   background: ivory;
   padding: 2rem;
   transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+	z-index: 1000;  /* tambahkan baris ini */
 }
 .show {
   transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
