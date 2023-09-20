@@ -66,6 +66,7 @@
 
     <!--* MAIN -->
     <main class="main">
+    <!-- Carousell -->
       <div>
         <div class="carousel">
           <ul class="slides">
@@ -128,13 +129,14 @@
           </div>
           <div class="first__text">
             <h1>Mempermudah kamu mengelola tokomu!</h1>
-            <p>Kelontong membantumu mengelola tokomu mulai dari ringkasan penjualan hingga mengedit produk penjualan hanya dengan 1 klik</p>
+            <p id="description">Kelontong membantumu mengelola tokomu mulai dari ringkasan penjualan hingga mengedit produk penjualan hanya dengan 1 klik</p>
           </div>
         </div>
         <div class="second">
           <div class="second__text">
             <h1>Belanja kapanpun, dimanapun!</h1>
             <p>Kelontong memberikanmu pengalaman belanja yang mudah 24 jam, tanpa perlu antri dan jaminan 1 jam sampai.</p>
+            <a href="https://skilvul.com" id="link">Skilvul</a>
           </div>
           <div class="second__img">
             <img src="Assets/tagline 2.png" alt="">
@@ -308,11 +310,14 @@
             <h1>Dapatkan lebih banyak info menarik dengan berlangganan email</h1>
         </div>
         <form class="subscribe__form">
-            <input class="form__name" type="text" placeholder="Name" >
-            <input class="form__username" type="text" placeholder="Username" >
-            <input class="form__phone" type="number" min="0" placeholder="Phone" >
-            <input class="form__email" type="email" placeholder="Email" >
-            <button class="btn__submit" type="submit">Submit</button>
+            <input class="form__name" type="text" placeholder="Name" id="name">
+            <input class="form__city" type="text" placeholder="City" id="city">
+            <input class="form__email" type="email" placeholder="Email" id="email">
+            <input class="form__zipcode" type="number" placeholder="Kode Pos" id="zip-code">
+            <label id="check">Dengan ini saya menyatakan data yang diisi pada form ini adalah benar dan telah sesuai</label>
+            <input type="checkbox" id="status">
+            <button class="btn__submit" type="submit" id="submit-form">Submit</button>
+            <div id="warning"></div>
         </d>
       </section>
 
@@ -346,6 +351,7 @@
                     <li><a href="#">Customer Care</a></li>
                     <li><a href="#">Syarat & Ketentuan</a></li>
                     <li><a href="#">Kebijakan Privasi</a></li>
+                    <li><a href="https://skilvul.com">Skilvul</a></li>
                 </ul>
             </div>
         </div>
