@@ -449,14 +449,6 @@ input:checked + .slide-container .nav label { display: block; }
   border: 1px solid #dfe3e8;
   background: #fff;
 }
-.checkbox-container {
-  display: flex;
-  align-items: center;
-}
-
-.checkbox-container input[type="checkbox"] {
-  margin-right: 1px;  /* Anda dapat menyesuaikan jarak ini sesuai keinginan */
-}
 
 .btn__submit {
     background: #1890ff;
@@ -574,14 +566,6 @@ input:checked + .slide-container .nav label { display: block; }
   .footer__navigation a {
     font-size: 0.8rem;
   }
-  .checkbox-container {
-    display: flex;
-    align-items: center;
-  }
-  
-  .checkbox-container input[type="checkbox"] {
-    margin-right: 2px;  /* Anda dapat menyesuaikan jarak ini sesuai keinginan */
-  }
 }
 
 @media screen and (max-width: 540px) {
@@ -681,13 +665,5 @@ input:checked + .slide-container .nav label { display: block; }
   .footer__navigation {
     flex-direction: column;
     row-gap: 1rem;
-  }
-  .checkbox-container {
-    display: flex;
-    align-items: left;
-  }
-  
-  .checkbox-container input[type="checkbox"] {
-    margin-right: 1px;  /* Anda dapat menyesuaikan jarak ini sesuai keinginan */
   }
 }
