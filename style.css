@@ -132,11 +132,8 @@ img {
   background: ivory;
   padding: 2rem;
   transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
-<<<<<<< HEAD
   z-index: 1000;  /* tambahkan baris ini */
-=======
 	z-index: 1000;  /* tambahkan baris ini */
->>>>>>> 1f120974b58ac991287909a75a919aea6f8cd09f
 }
 .show {
   transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
@@ -452,6 +449,15 @@ input:checked + .slide-container .nav label { display: block; }
   border: 1px solid #dfe3e8;
   background: #fff;
 }
+.checkbox-container {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-container input[type="checkbox"] {
+  margin-right: 1px;  /* Anda dapat menyesuaikan jarak ini sesuai keinginan */
+}
+
 .btn__submit {
     background: #1890ff;
     padding: 8px 12px;
@@ -568,6 +574,14 @@ input:checked + .slide-container .nav label { display: block; }
   .footer__navigation a {
     font-size: 0.8rem;
   }
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .checkbox-container input[type="checkbox"] {
+    margin-right: 2px;  /* Anda dapat menyesuaikan jarak ini sesuai keinginan */
+  }
 }
 
 @media screen and (max-width: 540px) {
@@ -667,5 +681,13 @@ input:checked + .slide-container .nav label { display: block; }
   .footer__navigation {
     flex-direction: column;
     row-gap: 1rem;
+  }
+  .checkbox-container {
+    display: flex;
+    align-items: left;
+  }
+  
+  .checkbox-container input[type="checkbox"] {
+    margin-right: 1px;  /* Anda dapat menyesuaikan jarak ini sesuai keinginan */
   }
 }
